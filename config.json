@@ -2,7 +2,7 @@
   "picBed": {
     "current": "github",
     "github": {
-      "token": "ghp_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",
+      "token": "ghp_your_token_here",
       "repo": "PantherRidgeHOA/image-hosting",
       "branch": "main"
     }
