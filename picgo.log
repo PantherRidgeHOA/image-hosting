@@ -1,0 +1,71 @@
+2026-01-16 11:40:12 [PicGo INFO] Before transform
+2026-01-16 11:40:12 [PicGo INFO] Transforming...
+2026-01-16 11:40:12 [PicGo INFO] Before upload
+2026-01-16 11:40:12 [PicGo INFO] Uploading...
+2026-01-16 11:40:12 [PicGo WARN] failed
+2026-01-16 11:40:12 [PicGo ERROR] Error: Can't find smms config, please provide api token, see https://sm.ms/home/apitoken
+------Error Stack Begin------
+Error: Can't find smms config, please provide api token, see https://sm.ms/home/apitoken
+    at Object.handle (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\plugins\uploader\smms.js:26:15)
+    at Lifecycle.doUpload (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\Lifecycle.js:70:24)
+    at Lifecycle.start (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\Lifecycle.js:21:24)
+    at async PicGo.upload (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\core\PicGo.js:156:13)
+    at async Command.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\picgo\dist\src\plugins\commander\upload.js:29:13)
+-------Error Stack End-------
+2026-01-16 13:05:11 [PicGo INFO] Before transform
+2026-01-16 13:05:11 [PicGo INFO] Transforming...
+2026-01-16 13:05:11 [PicGo INFO] Before upload
+2026-01-16 13:05:11 [PicGo INFO] Uploading...
+2026-01-16 13:05:11 [PicGo WARN] failed
+2026-01-16 13:05:11 [PicGo ERROR] StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+------Error Stack Begin------
+StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+    at new StatusCodeError (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2026-01-16 13:09:40 [PicGo INFO] Before transform
+2026-01-16 13:09:40 [PicGo INFO] Transforming...
+2026-01-16 13:09:41 [PicGo INFO] Before upload
+2026-01-16 13:09:41 [PicGo INFO] Uploading...
+2026-01-16 13:09:42 [PicGo WARN] failed
+2026-01-16 13:09:42 [PicGo ERROR] StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+------Error Stack Begin------
+StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+    at new StatusCodeError (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
+2026-01-16 13:21:24 [PicGo INFO] Before transform
+2026-01-16 13:21:24 [PicGo INFO] Transforming...
+2026-01-16 13:21:24 [PicGo INFO] Before upload
+2026-01-16 13:21:24 [PicGo INFO] Uploading...
+2026-01-16 13:21:24 [PicGo WARN] failed
+2026-01-16 13:21:24 [PicGo ERROR] StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+------Error Stack Begin------
+StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+    at new StatusCodeError (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at IncomingMessage.<anonymous> (C:\Users\angel\AppData\Roaming\Typora\picgo\win64\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+-------Error Stack End-------
